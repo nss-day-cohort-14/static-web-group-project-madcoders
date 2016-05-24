@@ -1,28 +1,57 @@
 body {
 	width: 100%;
-	background-color: lightblue;
+/*	background-color: lightblue;*/
 }
 
 #employees {
 	width: 80%;
+	height: 1100px;
+	margin: 30px auto;
+	border: 1px red solid;
+	border-radius: 25px;
+	background-color: slategrey;
 	
 }
 
-.positions {
+.positions-left {
+	width: 80%;
+	float: left;
 	display: block;
-	height: 200px;
+	height: 250px;
+	margin: 0 auto;
+	border: 1px orange solid;
+	background-color: #46B2B2;
+}
+
+.positions-right {
+	width: 80%;
+	float: right;
+	display: block;
+	height: 250px;
+	margin: 0 auto;
+	border: 1px blue solid;
+}
+
+h2 {
+	text-align: center;
 }
 
 h3 {
 	text-decoration: underline;
+	margin-bottom: 5px;
 }
 
 .empImg {
 	border-radius: 90px;
 	float: left;
+	margin: 15px 70px 0 70px;
 }
 
-span {
+.positions p {
 	border: 1px green solid;
+	margin: 33px 40px;
+	width: 80%;
+	height: 100;
+
 }
 
