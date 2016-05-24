@@ -1,0 +1,50 @@
+/*Our Watches Headline*/
+.product-headline {
+  text-align: center;
+  font-style: italic;
+  font-size: 3em;
+  color: #1511bf;
+  background-color: lightgrey;
+}
+
+/*General styling of products card*/
+.productsCard {
+  border: 2px solid black;
+  background-color: lightgrey;
+  width: 30%;
+  float:left;
+  margin: 0 0 2% 2%;
+}
+
+.site-footer{
+  clear: both;
+}
+
+/*Products card sizing*/
+.productsCard img {
+  height: 200px;
+  width: 200px;
+  margin: 0 0 2% 24%;
+
+}
+
+/*Products name styling*/
+.productsCard .name {
+  color: #3665ff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/*Products description styling*/
+.productsCard .description {
+  margin: 0 2% 2% 2%;
+  text-align: justify;
+  color: darkred;
+}
+
+/*Products price styling*/
+.productsCard .price {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2%;
+}

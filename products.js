@@ -32,7 +32,7 @@ var products = [
   },
   {
     name: "Seiko",
-    description: "Farm-to-table actually bushwick readymade chia chambray affogato mlkshk, fingerstache you probably haven't heard of them gochujang kale chips tote bag. Selvage brooklyn post-ironic mlkshk, YOLO cold-pressed vice bushwick.",
+    description: "Farm-to-table actually bushwick readymade chia chambray affogato mlkshk, fingerstache you probably haven't heard of them gochujang kale chips tote bag. Selvage brooklyn post-ironic mlkshk.",
     price: "$129.99",
     URL: "Images/Seiko.jpg",
   },
