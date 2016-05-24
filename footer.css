@@ -14,12 +14,12 @@ body {
 }
 
 .site-footer ul {
-	list-style: none; 
+	list-style: none;
 	display: inline;
 }
 
 .site-footer a {
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 .site-footer li {
@@ -28,7 +28,7 @@ body {
 }
 
 .site-footer h1 {
-	font-family: serif; 
+	font-family: serif;
 	display: inline;
 	font-weight: lighter;
 }
