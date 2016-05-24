@@ -1,0 +1,28 @@
+body {
+	width: 100%;
+	background-color: lightblue;
+}
+
+#employees {
+	width: 80%;
+	
+}
+
+.positions {
+	display: block;
+	height: 200px;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+img {
+	border-radius: 90px;
+	float: left;
+}
+
+span {
+	margin: 10px 20px;
+}
+
