@@ -57,3 +57,140 @@ header {
 
 .navMenu a:hover {
 }
+
+/**************************
+****** COMPANY PAGE  ******
+***************************/
+
+.company-cards {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding: 5%; 
+  box-sizing: border-box;
+}
+
+.light {
+  color: black;
+  background-color: white;
+}
+
+.dark {
+  color: white;
+  background-color: #46B2B2;
+}
+
+.photos {
+  background-image: url(https://images6.alphacoders.com/413/413493.jpg);
+  background-position: center; 
+  background-size: 100% auto;
+  height: 20em;
+  color: white;
+}
+
+.photos h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 4em;
+  padding: 1em;
+}
+
+.dark-align-left: {
+  max-width: 30%;
+  display: inline;
+}
+
+.dark-align-right {
+  width: 60%;
+  display: inline;
+}
+
+.dark-align-left img {
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  display: inline;
+  float: left;
+  margin: 2em;
+}
+
+.light-align {
+  max-width: 60%;
+  display: inline;
+  float: right;
+}
+
+/**************************
+****** INDEX STYLES ******
+***************************/
+
+.headerImage {
+  height: 400px;
+  background-color: #000;
+  background-image: url(http://travelphotographyhd.com/wp-content/uploads/2015/07/video-watch-the-landscape-and-tr.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  box-shadow: inset 5px 5px 25px 1px rgba(50, 50, 50, 80);
+}
+
+.imageQuote {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 110px;
+  text-align: center;
+  color: #B0FFF9;
+  text-shadow: 1px 2px 10px #233C3F;
+  font-weight: 500;
+  font-size: 2.7em;
+}
+
+.textWrapper {
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  /*background-color: pink;*/
+}
+
+.textWrapper h3 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #347E82;
+  text-shadow: 1px 1px 5px rgba(57, 94, 96, .2);
+  /*font-style: italic;*/
+}
+
+.textWrapper p {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.textBlock {
+  min-height: 200px;
+  box-sizing: border-box;
+  background-color: #46B2B2;
+  color: #FFF;
+  box-shadow: inset 5px 5px 25px 1px rgba(57, 94, 96, .2);
+  text-align: center;
+  padding: 50px;
+  font-size: 1.3em;
+}
+
+.textBlock h3 {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.site-footer {
+  background-color: #192E30;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
