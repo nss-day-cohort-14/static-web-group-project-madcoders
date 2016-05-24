@@ -17,12 +17,12 @@ h3 {
 	text-decoration: underline;
 }
 
-img {
+.empImg {
 	border-radius: 90px;
 	float: left;
 }
 
 span {
-	margin: 10px 20px;
+	border: 1px green solid;
 }
 
