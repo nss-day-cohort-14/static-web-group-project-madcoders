@@ -70,6 +70,7 @@ productElements.innerHTML +=
     "<div class='description'>" + "Description: " + currentProducts.description + "</div>" +
     "<div class='price'>" + "Price: " + currentProducts.price + "</div>" +
     "<img src =\"" + currentProducts.URL + "\">" +
+    "<div class='input'>" + "<input type='submit' value='add to cart'" + "</div>" +
   "</div>";
 };
 
