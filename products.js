@@ -65,7 +65,7 @@ for (var i = 0; i < products.length; i++) {
 productElements.innerHTML +=
   // Created overall class for each product card
   "<div class='productsCard'>" +
-  // starting layout for each product: name, description, price, URL
+  // starting layout for each product: name, description, price, URL, add to cart button
     "<div class='name'>" + "Name: " + currentProducts.name + "</div>" +
     "<div class='description'>" + "Description: " + currentProducts.description + "</div>" +
     "<div class='price'>" + "Price: " + currentProducts.price + "</div>" +
