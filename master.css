@@ -1,0 +1,60 @@
+/*************************
+***** GENERAL STYLES *****
+**************************/
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+/**************************
+****** NAVBAR STYLES ******
+***************************/
+
+header {
+  width: 100%;
+  overflow: auto;
+  background-color: #FFF;
+  padding-bottom: 20px;
+}
+
+.navBar {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.navBar h1 {
+  margin: 0;
+  float: left;
+}
+
+.navBar ul {
+    float: right;
+    margin: 0;
+    padding-top: 7px;
+}
+
+.navBar li {
+  display: inline-block;
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.navMenu a {
+  color: #222;
+  font-family: sans-serif;
+}
+
+.navMenu a:hover {
+  color: #600;
+}
