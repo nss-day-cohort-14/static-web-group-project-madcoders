@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.site-footer {
+	width: 100%;
+	background-color: lightgray;
+	color: white;
+	padding: 2em;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.site-footer ul {
+	list-style: none; 
+	display: inline;
+}
+
+.site-footer a {
+	text-decoration: none; 
+}
+
+.site-footer li {
+	display: inline;
+	padding: 2em;
+}
+
+.site-footer h1 {
+	font-family: serif; 
+	display: inline;
+	font-weight: lighter;
+}
+
+img {
+	max-height: 1.5em;
+	max-width: 1.5em;
+}
+
+.copyright {
+	font-size: .6em;
+}
