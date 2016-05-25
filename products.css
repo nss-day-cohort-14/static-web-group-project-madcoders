@@ -1,24 +1,28 @@
 /*Our Watches Headline*/
 .product-headline {
   text-align: center;
-  font-style: italic;
-  font-size: 3em;
-  color: #1511bf;
-  background-color: lightgrey;
+  font-style: block;
+  font-size: 3.4em;
+  color: #0f0c87;
+  background-image: linear-gradient(to top , #747474, #e1e1e1);
+  margin: 0;
+  text-shadow: 1px .5px 1px #fff;
 }
 
-/*Background color of body*/
 .products-body {
-  background-color: red;
+  border: none;
+  background-image: linear-gradient(to top , #c6c6c6, #690069, #747474);
+  margin: 0;
 }
 
 /*General styling of products card*/
 .productsCard {
   border: 2px solid black;
-  background-color: lightgrey;
+  background-image: linear-gradient(330deg , #094F86, #56c0f6);
   width: 30%;
   float:left;
   margin: 0 0 2% 2%;
+  border-radius: 13% 7%;
 }
 
 /*Footer clear due to floats of images*/
@@ -37,9 +41,12 @@
 
 /*Products name styling*/
 .productsCard .name {
-  color: #3665ff;
+  color: #264aba;
   font-size: 1.5em;
   text-align: center;
+  padding: 2px;
+  text-shadow: .25px 0 .5px #fff;
+  font-weight: 600;
 }
 
 /*Products description styling*/
@@ -52,8 +59,9 @@
 /*Products price styling*/
 .productsCard .price {
   text-align: center;
-  color: #555;
+  color: #d4d849;
   margin-bottom: 2%;
+  font-size: 1.15em;
 }
 
 /*Products add to cart button styling*/
@@ -66,4 +74,5 @@
 .productsCard .input input {
   background-color: #f8ffb6;
   border: 1px solid black;
+  border-radius: 45%;
 }
