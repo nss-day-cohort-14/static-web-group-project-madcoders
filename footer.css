@@ -7,7 +7,7 @@
 	padding: 2em;
 	box-sizing: border-box;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	clear: both;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .site-footer h1 {
-	font-family: serif;
+	font-family: 'Libre Baskerville', serif;
 	display: inline;
 	font-weight: lighter;
 }

@@ -15,6 +15,15 @@ li {
   list-style: none;
 }
 
+/**********************************
+** ADD LINK IN HEAD OF HTML PAGE **
+***********************************
+serif font- 'Libre Baskerville'
+  -normal (400) or bold (700)
+sans-serif font- 'Raleway'
+  -light (300), normal (400), medium (500), or semi-bold (600)
+***********************************/
+
 /**************************
 ****** NAVBAR STYLES ******
 ***************************/
@@ -28,7 +37,7 @@ header {
 
 .logo {
   font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .navBar {
@@ -165,7 +174,8 @@ header {
 }
 
 .textWrapper h3 {
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 500;
   color: #347E82;
   text-shadow: 1px 1px 5px rgba(57, 94, 96, .2);
@@ -173,8 +183,8 @@ header {
 
 .textWrapper p {
   font-size: 1em;
-  font-family: sans-serif;
-  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 .textBlock {
@@ -190,6 +200,7 @@ header {
 
 .textBlock h3 {
   font-weight: lighter;
+  font-family: 'Libre Baskerville' ,serif;
   font-size: 1.5em;
 }
 
@@ -224,13 +235,14 @@ header {
 
 .productFeat h6 {
   text-align: center;
-  font-size: 1.2em;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
   margin: 5px;
 
 }
 
 .productFeat p {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: .93em;
 }
